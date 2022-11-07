@@ -23,7 +23,7 @@ const Login = () => {
                     email: user.email
                 };
 
-                fetch(`http://localhost:5000/jwt`, {
+                fetch(`https://my-genius-car-server.vercel.app/jwt`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
